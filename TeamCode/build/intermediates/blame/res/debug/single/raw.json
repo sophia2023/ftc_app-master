@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/chimeconnect.wav",
+        "source": "/Users/sophia/.android/build-cache/f991bf32587d9ebddbaa382aa6b3133524dc0a80/output/res/raw/chimeconnect.wav"
+    },
+    {
+        "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/warningmessage.wav",
+        "source": "/Users/sophia/.android/build-cache/f991bf32587d9ebddbaa382aa6b3133524dc0a80/output/res/raw/warningmessage.wav"
+    },
+    {
+        "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/chimedisconnect.wav",
+        "source": "/Users/sophia/.android/build-cache/f991bf32587d9ebddbaa382aa6b3133524dc0a80/output/res/raw/chimedisconnect.wav"
+    },
+    {
+        "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/texture_fragment_shader.glsl",
+        "source": "/Users/sophia/.android/build-cache/b33028d1921eff10c5a3b9146b1be485af90a677/output/res/raw/texture_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/cube_mesh_vertex_shader.glsl",
+        "source": "/Users/sophia/.android/build-cache/b33028d1921eff10c5a3b9146b1be485af90a677/output/res/raw/cube_mesh_vertex_shader.glsl"
+    },
+    {
+        "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/color_fragment_shader.glsl",
+        "source": "/Users/sophia/.android/build-cache/b33028d1921eff10c5a3b9146b1be485af90a677/output/res/raw/color_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/errormessage.wav",
+        "source": "/Users/sophia/.android/build-cache/f991bf32587d9ebddbaa382aa6b3133524dc0a80/output/res/raw/errormessage.wav"
+    },
+    {
+        "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/simple_vertex_shader.glsl",
+        "source": "/Users/sophia/.android/build-cache/b33028d1921eff10c5a3b9146b1be485af90a677/output/res/raw/simple_vertex_shader.glsl"
+    },
+    {
+        "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/cube_mesh_fragment_shader.glsl",
+        "source": "/Users/sophia/.android/build-cache/b33028d1921eff10c5a3b9146b1be485af90a677/output/res/raw/cube_mesh_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/nxtstartupsound.wav",
+        "source": "/Users/sophia/.android/build-cache/f991bf32587d9ebddbaa382aa6b3133524dc0a80/output/res/raw/nxtstartupsound.wav"
+    },
+    {
+        "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/raw/texture_vertex_shader.glsl",
+        "source": "/Users/sophia/.android/build-cache/b33028d1921eff10c5a3b9146b1be485af90a677/output/res/raw/texture_vertex_shader.glsl"
+    }
+]

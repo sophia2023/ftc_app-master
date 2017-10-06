@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/sophia/ftc_app-master/FtcRobotController/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/sophia/ftc_app-master/FtcRobotController/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sophia/ftc_app-master/FtcRobotController/build/intermediates/res/merged/debug/drawable-hdpi-v4/button_shape.xml",
+        "source": "/Users/sophia/.android/build-cache/f991bf32587d9ebddbaa382aa6b3133524dc0a80/output/res/drawable-hdpi-v4/button_shape.xml"
+    }
+]

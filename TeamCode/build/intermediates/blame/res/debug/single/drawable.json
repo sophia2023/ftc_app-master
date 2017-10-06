@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/drawable/feedback_shape_orange.xml",
+        "source": "/Users/sophia/.android/build-cache/b33028d1921eff10c5a3b9146b1be485af90a677/output/res/drawable/feedback_shape_orange.xml"
+    },
+    {
+        "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/drawable/button_shape.xml",
+        "source": "/Users/sophia/.android/build-cache/f991bf32587d9ebddbaa382aa6b3133524dc0a80/output/res/drawable/button_shape.xml"
+    },
+    {
+        "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/drawable/icon_menu.png",
+        "source": "/Users/sophia/.android/build-cache/7c163a36c736f747e07546411d079f5de23c7e31/output/res/drawable/icon_menu.png"
+    },
+    {
+        "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/drawable/black_border.xml",
+        "source": "/Users/sophia/.android/build-cache/1808b9a7aa09aa1e83342ca339a7655eb5c0971e/output/res/drawable/black_border.xml"
+    },
+    {
+        "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/drawable/icon_robotcontroller.png",
+        "source": "/Users/sophia/.android/build-cache/7c163a36c736f747e07546411d079f5de23c7e31/output/res/drawable/icon_robotcontroller.png"
+    }
+]
