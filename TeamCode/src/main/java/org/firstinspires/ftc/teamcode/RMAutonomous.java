@@ -11,10 +11,10 @@ import com.qualcomm.robotcore.util.Range;
 @Autonomous(name ="Autonomous", group="main")
 public class RMAutonomous extends LinearOpMode {
 
-    private DcMotor leftDrive;
-    private DcMotor rightDrive;
-    private DcMotor leftBackDrive;
-    private DcMotor rightBackDrive;
+    private DcMotor leftDrive = null;
+    private DcMotor rightDrive = null;
+    private DcMotor leftBackDrive = null;
+    private DcMotor rightBackDrive = null;
 
     private Servo leftArm;
     private Servo rightArm;
@@ -28,6 +28,9 @@ public class RMAutonomous extends LinearOpMode {
 
     @Override
     public void runOpMode() throws InterruptedException {
+
+        telemetry.addData("Status", "Initialized");
+        telemetry.update();
 
         // Define and Initialize Motors
         leftDrive = hardwareMap.dcMotor.get("motor_left");
@@ -45,12 +48,18 @@ public class RMAutonomous extends LinearOpMode {
 
         sensorColor = hardwareMap.colorSensor.get("sensor_color");
         moveRobot(0,0,0);
+        moveArm(0.8, 0);
+
         waitForStart();
 
+        while (opModeIsActive()) {
+            removeOpponentJewel();
+            parkRobotInSafeZone();
+            moveGlyph();
 
-        removeOpponentJewel();
-        parkRobotInSafeZone();
-        moveGlyph();
+            idle();
+        }
+
 
     }
 

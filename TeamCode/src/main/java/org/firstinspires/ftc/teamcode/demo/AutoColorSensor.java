@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.examples;
+package org.firstinspires.ftc.teamcode.demo;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
@@ -6,8 +6,8 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.ColorSensor;
 @Disabled
-@Autonomous(name="NRAutoOp", group = "NR")
-public class NRAutoColorSensor extends LinearOpMode {
+@Autonomous(name="NRAutoOp", group = "test")
+public class AutoColorSensor extends LinearOpMode {
 
     DcMotor motorLeft;
     DcMotor motorRight;

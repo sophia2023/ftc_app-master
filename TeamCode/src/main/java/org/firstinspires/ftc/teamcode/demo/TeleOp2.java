@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.examples;
+package org.firstinspires.ftc.teamcode.demo;
 
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
@@ -6,14 +6,14 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
 
 @Disabled
-@TeleOp(name="NRTeleOp2", group = "NR")
-public class NRTeleOp2 extends OpMode {
+@TeleOp(name="TeleOp2", group = "test")
+public class TeleOp2 extends OpMode {
 
     private DcMotor motorLeft;
     private DcMotor motorRight;
 
 
-    public NRTeleOp2() {
+    public TeleOp2() {
 
     }
 
