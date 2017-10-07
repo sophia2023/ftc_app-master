@@ -17,12 +17,12 @@ public class RMAutonomous extends LinearOpMode {
     private DcMotor rightBackDrive;
 
     private Servo leftArm;
-    private Servo   rightArm;
+    private Servo rightArm;
 
     private ColorSensor sensorColor;
 
-    private double  driveAxial      = 0 ;   // Positive is forward
-    private double  driveLateral    = 0 ;   // Positive is right
+    private double  driveAxial      = 0 ;   // Move forward
+    private double  driveLateral    = 0 ;   // Move right
     private double  driveYaw        = 0 ;   // Positive is CCW
 
 
@@ -31,25 +31,56 @@ public class RMAutonomous extends LinearOpMode {
 
         // Define and Initialize Motors
         leftDrive = hardwareMap.dcMotor.get("motor_left");
-        rightDrive = hardwareMap.dcMotor.get("motor_leftback");
-        leftBackDrive = hardwareMap.dcMotor.get("motor_right");
-        rightBackDrive = hardwareMap.dcMotor.get("motor_rightback");
+        rightDrive = hardwareMap.dcMotor.get("motor_right");
+        leftBackDrive = hardwareMap.dcMotor.get("motor_leftBackDrive");
+        rightBackDrive = hardwareMap.dcMotor.get("motor_rightBackDrive");
 
         leftDrive.setDirection(DcMotor.Direction.FORWARD); // Positive input rotates counter clockwise
         leftBackDrive.setDirection(DcMotor.Direction.FORWARD);
         rightDrive.setDirection(DcMotor.Direction.REVERSE);
         rightBackDrive.setDirection(DcMotor.Direction.REVERSE);
 
-
         leftArm = hardwareMap.servo.get("servo_left");
         rightArm = hardwareMap.servo.get("servo_right");
 
         sensorColor = hardwareMap.colorSensor.get("sensor_color");
         moveRobot(0,0,0);
-
         waitForStart();
 
-        
+
+        removeOpponentJewel();
+        parkRobotInSafeZone();
+        moveGlyph();
+
+    }
+
+    //Select and Remove Opponent colored Jewel
+    private void removeOpponentJewel() {
+        moveArm(0,0);
+        telemetry.addData("Blue >", isJewelColorBlue());
+        telemetry.update();
+
+        if (isJewelColorBlue())
+            moveRobot(1,0,0);
+         else
+            moveRobot(0,1,0);
+    }
+
+    public boolean isJewelColorBlue() {
+        if (sensorColor.blue() > 10)
+            return true;
+        else
+            return false;
+    }
+
+   private void parkRobotInSafeZone() {
+       moveRobot(1, 1, 1);
+   }
+
+
+  //Score Glyphs into Crypto-boxes
+  //Bonus: CryptBoxes Key Colum
+    private void moveGlyph() {
 
     }
 
@@ -63,9 +94,9 @@ public class RMAutonomous extends LinearOpMode {
      * 3) Positive speed on the Yaw axis means rotate COUNTER CLOCKWISE.
      *
      * @param axial     Speed in Fwd Direction
-     * @param lateral   Speed in lateral direction (+ve to right)
+     *  @param lateral   Speed in lateral direction (+ve to right)
      * @param yaw       Speed of Yaw rotation.  (+ve is CCW)
-     */
+  */
     public void moveRobot(double axial, double lateral, double yaw) {
         axial = Range.clip(axial, -1, 1);
         lateral = Range.clip(lateral, -1, 1);
@@ -74,7 +105,7 @@ public class RMAutonomous extends LinearOpMode {
     }
 
 
-    public void moveRobot() {
+     public void moveRobot() {
         // calculate required motor speeds to acheive axis motions
         double back = driveYaw + driveLateral;
         double left = driveYaw - driveAxial - (driveLateral * 0.5);
@@ -85,7 +116,7 @@ public class RMAutonomous extends LinearOpMode {
         max = Math.max(max, Math.abs(left));
         if (max > 1.0)
         {
-            back /= max;
+           back /= max;
             right /= max;
             left /= max;
         }
@@ -95,25 +126,15 @@ public class RMAutonomous extends LinearOpMode {
         leftDrive.setPower(left);
         rightDrive.setPower(right);
         rightBackDrive.setPower(right);
-
-        // Display Telemetry
+         // Display Telemetry
         telemetry.addData("Axes  ", "A[%+5.2f], L[%+5.2f], Y[%+5.2f]", driveAxial, driveLateral, driveYaw);
         telemetry.addData("Wheels", "L[%+5.2f], R[%+5.2f], B[%+5.2f]", left, right, back);
-    }
+      }
 
+    public void moveArm (double leftArmPosition, double rightArmPosition) {
+       leftArm.setPosition(leftArmPosition);
+        rightArm.setPosition(rightArmPosition);
+       }
 
-    public void senseColor() {
-
-        telemetry.addData("Blue Color", sensorColor.blue());
-        telemetry.addData("Red Color", sensorColor.red());
-        telemetry.update();
-        sleep(100);
-
-        if (sensorColor.blue() > 10) {
-            telemetry.addData("Blue", sensorColor.blue());
-        } else {
-            telemetry.addData("Not Blue", sensorColor.blue());
-        }
-    }
 
 }
