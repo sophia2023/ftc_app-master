@@ -9,7 +9,7 @@ import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.Range;
 
 @Autonomous(name ="Autonomous", group="main")
-public class RMAutonomous extends LinearOpMode {
+public class RMAutonomous1 extends LinearOpMode {
 
     private DcMotor leftDrive = null;
     private DcMotor rightDrive = null;
@@ -52,13 +52,15 @@ public class RMAutonomous extends LinearOpMode {
 
         waitForStart();
 
-        while (opModeIsActive()) {
-            removeOpponentJewel();
-            parkRobotInSafeZone();
-            moveGlyph();
+        removeOpponentJewel();
 
-            idle();
-        }
+//        while (opModeIsActive()) {
+//
+//            parkRobotInSafeZone();
+//            moveGlyph();
+//
+//         //   idle();
+//        }
 
 
     }
@@ -144,6 +146,5 @@ public class RMAutonomous extends LinearOpMode {
        leftArm.setPosition(leftArmPosition);
         rightArm.setPosition(rightArmPosition);
        }
-
 
 }
