@@ -25,6 +25,7 @@ public class RMAutonomous extends LinearOpMode {
     @Override
     public void runOpMode() throws InterruptedException {
         initialize();
+        test();
         waitForStart();
         removeOpponentJewel();
     }
