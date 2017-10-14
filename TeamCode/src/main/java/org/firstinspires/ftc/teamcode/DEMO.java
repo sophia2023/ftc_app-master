@@ -11,11 +11,9 @@ public class DEMO extends OpMode{
     DcMotor motorLeft;
     DcMotor motorRight;
 
-
     //Commented out because we are using two wheel drive
     //DcMotor motor3;
     //DcMotor motor4;
-
 
     public void init() {
         //Defining Motors

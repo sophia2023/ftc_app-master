@@ -1,12 +1,12 @@
-package org.firstinspires.ftc.teamcode.examples;
+package org.firstinspires.ftc.teamcode.demo;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
 @Disabled
-@Autonomous(name="NRAutoOp2", group = "NR")
-public class NRAuto1 extends LinearOpMode {
+@Autonomous(name="AutoOp2", group = "test")
+public class Auto1 extends LinearOpMode {
 
     DcMotor motorLeft;
     DcMotor motorRight;
