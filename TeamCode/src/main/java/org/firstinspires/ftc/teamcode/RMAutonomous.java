@@ -9,7 +9,7 @@ import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.Range;
 
 @Autonomous(name ="Autonomous", group="main")
-public class RMAutonomous1 extends LinearOpMode {
+public class RMAutonomous extends LinearOpMode {
 
     private DcMotor leftDrive = null;
     private DcMotor rightDrive = null;
