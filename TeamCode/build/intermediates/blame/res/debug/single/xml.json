@@ -1,15 +1,15 @@
 [
     {
         "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/xml/k9legacybot.xml",
-        "source": "/Users/sophia/.android/build-cache/f991bf32587d9ebddbaa382aa6b3133524dc0a80/output/res/xml/k9legacybot.xml"
+        "source": "/Users/sophia/.android/build-cache/57424e5d14dced12257bc14ac4db7f7a03e20dee/output/res/xml/k9legacybot.xml"
     },
     {
         "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/xml/squarebot.xml",
-        "source": "/Users/sophia/.android/build-cache/f991bf32587d9ebddbaa382aa6b3133524dc0a80/output/res/xml/squarebot.xml"
+        "source": "/Users/sophia/.android/build-cache/57424e5d14dced12257bc14ac4db7f7a03e20dee/output/res/xml/squarebot.xml"
     },
     {
         "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/xml/pushbot.xml",
-        "source": "/Users/sophia/.android/build-cache/f991bf32587d9ebddbaa382aa6b3133524dc0a80/output/res/xml/pushbot.xml"
+        "source": "/Users/sophia/.android/build-cache/57424e5d14dced12257bc14ac4db7f7a03e20dee/output/res/xml/pushbot.xml"
     },
     {
         "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/xml/device_filter.xml",
@@ -17,15 +17,15 @@
     },
     {
         "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/xml/k9usbbot.xml",
-        "source": "/Users/sophia/.android/build-cache/f991bf32587d9ebddbaa382aa6b3133524dc0a80/output/res/xml/k9usbbot.xml"
+        "source": "/Users/sophia/.android/build-cache/57424e5d14dced12257bc14ac4db7f7a03e20dee/output/res/xml/k9usbbot.xml"
     },
     {
         "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/xml/advanced_rc_settings.xml",
-        "source": "/Users/sophia/.android/build-cache/f991bf32587d9ebddbaa382aa6b3133524dc0a80/output/res/xml/advanced_rc_settings.xml"
+        "source": "/Users/sophia/.android/build-cache/57424e5d14dced12257bc14ac4db7f7a03e20dee/output/res/xml/advanced_rc_settings.xml"
     },
     {
         "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/xml/maxmodules.xml",
-        "source": "/Users/sophia/.android/build-cache/f991bf32587d9ebddbaa382aa6b3133524dc0a80/output/res/xml/maxmodules.xml"
+        "source": "/Users/sophia/.android/build-cache/57424e5d14dced12257bc14ac4db7f7a03e20dee/output/res/xml/maxmodules.xml"
     },
     {
         "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/xml/app_settings.xml",
@@ -33,10 +33,10 @@
     },
     {
         "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/xml/rev_scoot.xml",
-        "source": "/Users/sophia/.android/build-cache/f991bf32587d9ebddbaa382aa6b3133524dc0a80/output/res/xml/rev_scoot.xml"
+        "source": "/Users/sophia/.android/build-cache/57424e5d14dced12257bc14ac4db7f7a03e20dee/output/res/xml/rev_scoot.xml"
     },
     {
         "merged": "/Users/sophia/ftc_app-master/TeamCode/build/intermediates/res/merged/debug/xml/pushbotsens.xml",
-        "source": "/Users/sophia/.android/build-cache/f991bf32587d9ebddbaa382aa6b3133524dc0a80/output/res/xml/pushbotsens.xml"
+        "source": "/Users/sophia/.android/build-cache/57424e5d14dced12257bc14ac4db7f7a03e20dee/output/res/xml/pushbotsens.xml"
     }
 ]
